@@ -28,7 +28,7 @@ We don't neccessarily want to active a node if the weighted sum is strictly grea
 
 So each neuron is a function that takes values from the previous layer and spits out a number
 
-## Learning = Finding The Right Weights and Biases**
+## Learning = Finding The Right Weights and Biases
 
 So each neruon is connected to all neruons in the previous layer, the weights in the weighted sum are the strength of the connection between neurons in successive layers, and the bias is some indication of if that neuron is generally active or inactive.
 

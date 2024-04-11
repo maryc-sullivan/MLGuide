@@ -6,15 +6,14 @@ Author: Mary Catherine Sullivan
 
 ## Generative Pre-Trained Transformers (GPT)
 
-Generative: Neural Networks that are able to generate text
+**Generative**: Neural Networks that are able to generate text
 
-Pre-Trained: Neural Network that is pre-trained on millions of text 
+**Pre-Trained**: Neural Network that is pre-trained on millions of text 
 
-Transformer: A specific type of Neural Network
+**Transformer**: A specific type of Neural Network
 
-Transformers were invented by Google [(_Attention is All You Need_, 2017)](https://arxiv.org/abs/1706.03762) to translate text from one language to another. Now Transformers can do much more.
 
-Let's consider a next-word prediction transformer, like GPT. 
+Transformers were invented by Google [(_Attention is All You Need_, 2017)](https://arxiv.org/abs/1706.03762) to translate text from one language to another. Now Transformers can do much more. Let's consider a next-word prediction transformer, like GPT. 
 
 Text (or images or audio) is broken into tokens, this can be full words or parts of words. Each token is then represented by a vector that encode the meaning of that token. Tokens that are similar have vectors that are closer together. 
 
