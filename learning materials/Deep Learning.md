@@ -1,5 +1,9 @@
 # Deep Learning Basics
 
+This notebook covers the basics on deep learning and how neural networks work. This is a learning resource, not a practitioners guide. All material is drawn from the 3Blue1Brown YoutTube Series on Deep Learning (Videos 1-3). 
+
+Author: Mary Catherine Sullivan
+
 ## What Is A Neural Network
 
 Each node is a neuron and each neuron holds a number ("activation")

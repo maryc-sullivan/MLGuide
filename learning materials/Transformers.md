@@ -2,6 +2,8 @@
 
 This notebook picks up after the Deep Learning guide and is a quick deep dive into transformer models and how they are trained. This is a learning resource, not a practitioners guide. All material is drawn from the 3Blue1Brown YoutTube Series on Deep Learning (videos 5-6). 
 
+Author: Mary Catherine Sullivan
+
 ## Generative Pre-Trained Transformers (GPT)
 
 Generative: Neural Networks that are able to generate text
@@ -54,7 +56,7 @@ In the next word prediction example, first we get a vector representation of tha
 
 The **softmax function** takes an vector of numbers (is this case the dot product of our prediction word vector and each word in our vacobulary) and changes these numbers to range from 0 to 1 with all values adding to 1.
 
-Softmax has a tempature parameter $T$, which can take any value between 0 and 1. when $T$ is larger we give more weight to the lower values meaning the resulting distribution that is a bit more uniform; and when $T$ is smaller than the bigger values will dominate the distribution. If $T = 0$ then the largest value will have a probability of 1 and all others will be 0. 
+Softmax has a tempature parameter $T$, which can take any value between 0 and 2. when $T$ is larger we give more weight to the lower values meaning the resulting distribution that is a bit more uniform; and when $T$ is smaller than the bigger values will dominate the distribution. If $T = 0$ then the largest value will have a probability of 1 and all others will be 0. 
 
 You will often see the inputs into the softmax function described as logits and the outputs as probabilities.
 
